@@ -11,7 +11,7 @@ Image stitching is a traditional but challenging computer vision task, aiming to
 * tensorlayer 1.8.0
 
 ## Dataset
-1. Create folders as follow:
+1. Create folders as follows:
 * dataset
   * training  
     * input1  
@@ -24,9 +24,36 @@ Image stitching is a traditional but challenging computer vision task, aiming to
     * shift
     * label
 
+2. Set the path for row images, training samples, and testing samples in dataset.py. Then run this script：
+```
+python dataset.py
+```
+
 ## Training
+1. Train the deep homography network
+```
+sdfas
+```
+
+2. Place the trained homography model in
+
+3. Train the content revision network
+```
+fdsaf
+```
 
 ## Testing
+#### Test on homography estimation
+```
+cd
+python
+```
+
+#### Test on image stitching
+```
+cd 
+python
+```
 
 ## Limitation
 
