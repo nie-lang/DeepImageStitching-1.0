@@ -12,18 +12,17 @@ Image stitching is a traditional but challenging computer vision task, aiming to
 
 ## Dataset
 1. Create folders as follow:
->dataset
->>training  
->>>input1  
->>>input2
->>>shift
->>>label
-
->>testing  
->>>input1  
->>>input2
->>>shift
->>>label
+* dataset
+  * training  
+    * input1  
+    * input2
+    * shift
+    * label
+  * testing  
+    * input1  
+    * input2
+    * shift
+    * label
 
 ## Training
 
