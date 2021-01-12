@@ -56,6 +56,11 @@ python
 ```
 
 ## Limitation
+To the best of our knowledge, this is the first work that can stitch images from arbitrary views in a complete deep learning framework. However, it also has the following two limitations：
+
+1. It can only stitch images with the resolution of 128×128.
+
+2. There is no parallax in the synthetic dataset. Therefore, the generalization ability of the proposed network in real scenes is not ideal.
 
 ## Meta
 NIE Lang - nielang@bjtu.edu.cn
