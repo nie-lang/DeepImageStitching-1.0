@@ -15,11 +15,8 @@ Image stitching is a traditional but challenging computer vision task, aiming to
 >dataset
 >>training  
 >>>input1  
-
 >>>input2
-
 >>>shift
-
 >>>label
 
 >>testing  
