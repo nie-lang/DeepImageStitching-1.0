@@ -25,7 +25,15 @@ NIE Lang - nielang@bjtu.edu.cn
 All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. If you use this code or ideas from the paper for your research, please cite our paper:
 
 ```
-fdsaf
+@article{nie2020view,
+  title={A view-free image stitching network based on global homography},
+  author={Nie, Lang and Lin, Chunyu and Liao, Kang and Liu, Meiqin and Zhao, Yao},
+  journal={Journal of Visual Communication and Image Representation},
+  volume={73},
+  pages={102950},
+  year={2020},
+  publisher={Elsevier}
+}
 ```
 
 ## Reference
