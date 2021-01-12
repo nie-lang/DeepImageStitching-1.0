@@ -11,3 +11,23 @@ Image stitching is a traditional but challenging computer vision task, aiming to
 * tensorlayer 1.8.0
 
 ## Dataset
+
+
+## Training
+
+## Testing
+
+## Limitation
+
+## Meta
+NIE Lang - nielang@bjtu.edu.cn
+
+All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. If you use this code or ideas from the paper for your research, please cite our paper:
+
+```
+fdsaf
+```
+
+## Reference
+[1] D. DeTone, T. Malisiewicz, and A. Rabinovich. Deep image homography estimation. arXiv preprint arXiv:1606.03798, 2016.
+[2] T. Nguyen, S. W. Chen, S. S. Shivakumar, C. J. Taylor, and V. Kumar. Unsupervised deep homography: A fast and robust homography estimation model. IEEE Robotics and Automation Letters, 3(3):2346–2353, 2018.  
