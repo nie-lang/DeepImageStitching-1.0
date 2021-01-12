@@ -43,13 +43,6 @@ fdsaf
 ```
 
 ## Testing
-#### Test on homography estimation
-```
-cd
-python
-```
-
-#### Test on image stitching
 ```
 cd 
 python
