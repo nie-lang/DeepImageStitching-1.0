@@ -14,20 +14,14 @@ Image stitching is a traditional but challenging computer vision task, aiming to
 1. Create folders as follows:
 * dataset
   * training  
-    * input1  
-    * input2
-    * shift
-    * label
   * testing  
-    * input1  
-    * input2
-    * shift
-    * label
 
-2. Set the path for row images, training samples, and testing samples in dataset.py. Then run this script：
+2. Set the path for row images, training samples, and testing samples in ./Dataset_gen/dataset.py. Then run this script：
 ```
+cd Dataset_gen/
 python dataset.py
 ```
+It may take several days to generate the dataset since our code is not optimized for speed. You can change the number of samples according to your needs.
 
 ## Training
 1. Train the deep homography network
