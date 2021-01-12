@@ -11,7 +11,18 @@ Image stitching is a traditional but challenging computer vision task, aiming to
 * tensorlayer 1.8.0
 
 ## Dataset
-
+1. Create folders as follow:
+>dataset
+>>training  
+>>>input1  
+>>>input2
+>>>shift
+>>>label
+>>testing  
+>>>input1  
+>>>input2
+>>>shift
+>>>label
 
 ## Training
 
