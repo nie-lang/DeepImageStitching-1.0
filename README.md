@@ -29,7 +29,10 @@ It may take several days to generate the dataset since our code is not optimized
 sdfas
 ```
 
-2. Place the trained homography model in
+2. Place the trained homography model in    . And download the pretrained model of vgg19 from:
+```
+https://github.com/machrisaa/tensorflow-vgg
+```
 
 3. Train the content revision network
 ```
@@ -37,6 +40,7 @@ fdsaf
 ```
 
 ## Testing
+Test with your retrained model. Or you can get our pretrained model for image stitching in .
 ```
 cd 
 python
