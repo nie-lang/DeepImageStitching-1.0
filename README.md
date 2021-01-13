@@ -1,5 +1,5 @@
 # DeepImageStitching v1 [paper](https://www.sciencedirect.com/science/article/pii/S1047320320301784)
-<p align="center"># DeepImageStitching v1 [paper](https://www.sciencedirect.com/science/article/pii/S1047320320301784)</p>
+
 
 <p align="center">Lang Nie, Chunyu Lin, Kang Liao, Meiqin Liu, Yao Zhao</p>
 <p align="center">Institute of Information Science, Beijing Jiaotong University</p>
