@@ -24,32 +24,51 @@ python dataset.py
 It may take several days to generate the dataset since our code is not optimized for speed. You can change the number of samples according to your needs.
 
 ## Training
-1. Train the deep homography network
+Step 1. Train the deep homography network
 ```
-sdfas
+cd Codes/H_Net/
+
+python train_H.py  --train_folder  ../../dataset/training
+                   --test_folder  ../../dataset/testing
+                   --summary_dir  ../summary/homography
+                   --snapshot_dir  ../checkpoints/homography
+                   --gpu  0
+                   --batch 4
+                   --iters    600000
 ```
 
-2. And download the pretrained model of vgg19 from:
+Step 2. And download the pretrained model of vgg19 from:
 ```
 https://github.com/machrisaa/tensorflow-vgg
 ```
+Then move the vgg model to ./Codes/checkpoints/vgg19/ .
 
-3. Train the content revision network
+Step 3. Train the content revision network
 ```
-fdsaf
+cd Codes/Stitch_Net/
+
+python train.py  --train_folder  ../../dataset/training
+                 --test_folder  ../../dataset/testing
+                 --summary_dir  ../summary/stitch
+                 --snapshot_dir  ../checkpoints/stitch
+                 --gpu  0
+                 --batch 4
+                 --iters    600000
 ```
 
 ## Testing
-Test with your retrained model. Or you can get our pretrained model for image stitching in https://drive.google.com/drive/folders/1JD89Nu4DbEqiBdIkYQNs5KOqhpne5-IQ?usp=sharing.
+Test with your retrained model. Or you can get our pretrained model for image stitching in https://drive.google.com/drive/folders/1JD89Nu4DbEqiBdIkYQNs5KOqhpne5-IQ?usp=sharing. Move the model to ./Codes/checkpoints/stitch/, and run:
 ```
-cd 
-python
+cd Codes/Stitch_Net/
+
+python inference.py   --test_folder  ../../dataset/testing
+                      --gpu  0    
 ```
 
 ## Limitation
 To the best of our knowledge, this is the first work that can stitch images from arbitrary views in a complete deep learning framework. However, it also has the following two limitations：
 
-1. It can only stitch images with the resolution of 128×128.
+1. It cannot handle input of arbitrary resolution.
 
 2. There is no parallax in the synthetic dataset. Therefore, the generalization ability of the proposed network in real scenes is not ideal.
 
