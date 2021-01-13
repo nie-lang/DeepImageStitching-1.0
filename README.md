@@ -67,7 +67,12 @@ cd Codes/Stitch_Net/
 python inference.py   --test_folder  ../../dataset/testing
                       --gpu  0    
 ```
-
+## Visualization
+Visualization on TensorBoard for training and validation is supported.
+```
+tensorboard --logdir= path_of_summary --port port_number
+```
+ 
 ## Limitation
 To the best of our knowledge, this is the first work that can stitch images from arbitrary views in a complete deep learning framework. However, it also has the following two limitations：
 
