@@ -1,4 +1,4 @@
-# DeepImageStitching v1 [paper](https://www.sciencedirect.com/science/article/pii/S1047320320301784)
+# DeepImageStitching v1 (VFISNet) [paper](https://www.sciencedirect.com/science/article/pii/S1047320320301784)
 
 The official implementation of "A view-free image stitching network based on global homography" in Tensorflow.
 
