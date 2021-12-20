@@ -29,7 +29,7 @@ python dataset.py
 It may take several days to generate the dataset since our code is not optimized for speed. You can change the number of samples according to your needs.
 
 ## For windows system
-For windows OS users, you have to change '/' to '\\\\' in 'line 61 of Codes/H_Net/utils.py' and 'line 60 of Codes/Stitch_Net/utils.py'.
+For windows OS users, you have to change '/' to '\\\\' in 'line 61 and line 120 of Codes/H_Net/utils.py' and 'line 60 of Codes/Stitch_Net/utils.py'.
 
 ## Training
 Step 1. Train the deep homography network
