@@ -65,7 +65,7 @@ python train.py  --train_folder  ../../dataset/training
 ```
 
 ## Testing
-Test with your retrained model. Or you can get our pretrained model for image stitching in https://drive.google.com/drive/folders/1JD89Nu4DbEqiBdIkYQNs5KOqhpne5-IQ?usp=sharing. Move the model to ./Codes/checkpoints/stitch/, and run:
+Test with your retrained model. Or you can get our pretrained model for image stitching in [Google Drive](https://drive.google.com/drive/folders/1JD89Nu4DbEqiBdIkYQNs5KOqhpne5-IQ?usp=sharing) or [Baidu Cloud](https://pan.baidu.com/s/18aW6LTVg4-qQtOQF_GKfHg)(Extraction code: 1234). Move the model to ./Codes/checkpoints/stitch/, and run:
 ```
 cd Codes/Stitch_Net/
 
